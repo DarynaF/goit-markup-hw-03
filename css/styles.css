@@ -112,7 +112,6 @@ padding-bottom: 94px;}
 
 .header {background:var(--background-color);
     border-bottom: 1px solid #ECECEC ;
-    margin-bottom: 11px;
 }
 .nav-links.current  {color: var(--accent-color);}
 
@@ -380,7 +379,6 @@ h1 {
         justify-content: center;
         column-gap: 8px;
         margin-bottom: 50px;
-        margin-top: -11px;
    }
 
 .portfolio-nav-btn {
