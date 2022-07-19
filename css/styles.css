@@ -16,6 +16,8 @@
 }
 /*Стили для index.HTML*/
 ul {list-style: none;
+    
+    
 }
 
 a {text-decoration: none;
@@ -43,7 +45,18 @@ body { font-family: var(--primary-font);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.conteiner {width: 1230px;
+padding-left: 15px;
+padding-right: 15px;}
+
 /*Хедер*/
+
+.header-conteiner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
 
 .logo {
     font-family: var(--secondary-font);
@@ -52,17 +65,26 @@ body { font-family: var(--primary-font);
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: var(--letter-spacing);
-    color: var(--color-black)}
+    color: var(--color-black);
+   
+    }
 
-.web-header { color: var(--accent-color);}
+.web-header { color: var(--accent-color);
+}
 
 .header {background:var(--background-color);
 }
 .nav-links.current  {color: var(--accent-color);}
 
-.nav {}
+.nav {display: flex;
+align-items: center;
+justify-content: center;
+}
    
-.site-nav {}
+.site-nav { display: flex; 
+    align-items: center;
+    
+}
 
 .nav-links:hover,
 .nav-links:focus,
@@ -77,7 +99,14 @@ font-family: var(--primary-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; 
+    margin-left: 50px;
+   
+}
+
+.header-contacts{display: flex;
+    margin: auto;
+    align-items: center;
 }
 
 .headeder-contact-link {
@@ -86,6 +115,7 @@ font-family: var(--primary-font);
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        margin-left: 50px;
 }
 
 .headeder-contact-link:hover,
@@ -96,7 +126,13 @@ font-family: var(--primary-font);
 /*Герой*/
 .hero {
     background-color: var(--background-hf-color);
+    
+    height: 600px;
 }
+.hero-conteiner{ text-align: center;
+}
+.hero-tittel{ width: 696px;
+    padding-top: 200px;}
 
 h1 {
     text-transform: uppercase;
